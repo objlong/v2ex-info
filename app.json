@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/hot/hot",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#444444",
+    "list": [{
+      "pagePath": "pages/hot/hot",
+      "text": "热点"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "日志"
+    }]
+  },  
+  "debug": true
+}

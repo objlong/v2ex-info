@@ -1,0 +1,67 @@
+.record{
+    border-top: 2rpx solid #ddd;
+}
+.record .item{
+    border-bottom: 2rpx solid #ddd;
+    padding:0 40rpx;
+}
+.record .item .article-info{
+    padding: 40rpx 0;
+    position: relative;
+    border-bottom: 2rpx solid #ddd;
+}
+.record .item .user-info{
+    position: absolute;
+    left: 20rpx;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 160rpx;
+    margin: auto;
+}
+.record .item .user-info .user-avatar{
+    display: block;
+    width: 140rpx;
+    height: 140rpx;
+    border-radius: 16rpx;
+    
+}
+.record .item .user-info .user-name{
+    margin-top: 20rpx;
+    display: block;
+    text-align: center;
+    font-size: 28rpx;
+}
+.record .item .content text{
+    display: block;
+    padding-left: 200rpx;
+}
+.record .item .content .title{
+    margin-bottom: 40rpx;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 32rpx;
+}
+.record .item .content .summary{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 30rpx;
+    height: 96rpx;
+    line-height: 32rpx;
+}
+.record .item .node-info{
+    padding: 40rpx;
+    overflow: hidden;
+}
+.record .item .node-info .node-avatar{
+    float: left;
+    width: 60rpx;
+    height: 60rpx;
+    padding-right: 40rpx;
+}
+.record .item .node-info .node-name{
+    float: left;
+    line-height: 60rpx;
+    font-size: 32rpx;
+    color: #999;
+}
