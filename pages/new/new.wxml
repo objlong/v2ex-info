@@ -1,0 +1,20 @@
+<view class="main">
+    <view class="record">
+        <view class="item" wx:for="{{articleList}}">
+            <view class="article-info">
+                <view class="user-info">
+                    <image class="user-avatar" src="{{item.member.avatar_normal}}" mode="aspectFit"></image>
+                    <text class="user-name">{{item.member.username}}</text>
+                </view>
+                <view class="content">
+                    <text class="title">{{item.title}}</text>
+                    <text class="summary">{{item.content}}</text>
+                </view>
+            </view>
+            <view class="node-info">
+                <image src="{{item.node.avatar_normal}}" class="node-avatar"></image>
+                <text class="node-name">{{item.node.title}}</text>    
+            </view>
+        </view>
+    </view>
+</view>

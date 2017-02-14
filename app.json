@@ -1,8 +1,7 @@
 {
   "pages":[
     "pages/hot/hot",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/new/new"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -18,8 +17,8 @@
       "text": "热点"
     },
     {
-      "pagePath": "pages/index/index",
-      "text": "日志"
+      "pagePath": "pages/new/new",
+      "text": "最新"
     }]
   },  
   "debug": true
